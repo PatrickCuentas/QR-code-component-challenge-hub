@@ -1,0 +1,34 @@
+:root {
+  --bg-white: hsl(0, 0%, 100%);
+  --bg-body: hsl(212, 45%, 89%);
+  --clr-text: hsl(220, 15%, 55%);
+  --clr-heading: hsl(218, 44%, 22%);
+}
+
+html,
+body {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  background: var(--bg-body);
+}
+
+h1,
+h2,
+h3,
+p,
+span {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--clr-heading);
+}
+p,
+span {
+  color: var(--clr-text);
+}
+main {
+  background: var(--bg-white);
+}
